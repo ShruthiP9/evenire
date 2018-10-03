@@ -1,0 +1,29 @@
+<div>
+    <table class="table table row">
+    <table CELLPADDING="2" CELLSPACING="200" WIDTH="1300" class="css-serial">
+    <thead>
+        <th width='50'>Sno</th>
+        <th>Name</th>
+        <th>Status</th>
+        <th>Type</th>
+    </thead>
+
+    <tbody *ngFor="let eve of STGevents">
+        <tr *ngIf="eve.type=='Stage Event'">
+            
+            <td width='50'>&nbsp;</td>
+            
+            <td><a [routerLink]="['/otherDetails',eve.name]">{{eve.name}}</a></td>
+           
+            <td><h6 [ngClass]="{gray:eve.status=='ended'}">{{eve.status}}</h6></td>
+            <td>{{eve.type}}</td>
+        </tr>
+    </tbody>
+</table>
+</table>
+</div>
+<router-outlet></router-outlet>
+
+
+
+<router-outlet></router-outlet>

@@ -1,0 +1,38 @@
+.list-group{
+		width: 200px;
+}
+
+.my-btn {
+	font-size:1.7em;
+}
+
+.extraClass {
+	background: black;
+	color: white;
+}
+
+.anotherClass{
+	font-weight: bold;
+}
+h2{
+	background-color:#108ADB;
+	color: white;
+	margin: 25px;
+	padding: 10px;
+
+}
+button{
+	border-bottom-color: blue;
+	background-color:white;
+	color: #070707;
+	margin: 25px;
+	padding: 10px;
+	border-bottom-width: 3px;
+
+}
+div{
+	background-color: #ECE7E7;
+
+	margin:25px;
+
+}
